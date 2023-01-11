@@ -226,16 +226,31 @@ h4 {
 	opacity: 100%;
 }
 
-/* about.html */
+/* about.html ///////////////////////////////////////////*/
+
+.happy {
+	color: #f88b5d;
+}
 
 .hello {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	gap: 66px;
+}
+
+.hello h1 {
+	font-size: 2.625rem;
+	line-height: 100%;
 }
 
 .hello-content {
+	line-height: 150%;
 	/* width: 300px; */
+}
+
+.hello-content p {
+	margin: 1em 0;
 }
 
 .hello-img {
@@ -248,4 +263,22 @@ h4 {
 
 .inspiration-bottom {
 	display: flex;
+}
+
+.summary {
+	font-size: 2.25rem;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 120%;
+}
+
+.resume {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 2em;
+}
+
+.resume-column {
+	flex: 1;
 }
