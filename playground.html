@@ -1,56 +1,106 @@
 <html>
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="index.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
 
-    <body>
-        <nav class="nav-bar">
-            <ul class="nav-bar-left">
-                <li><a class="nav-element nav-jr" href="#"><img src="img/jr-black.png"></a></li>
-                <li>
-                    <a class="nav-element nav-jr" href="#">
-                        <p><strong>Justyna Rawińska</strong></p>
-                        <p>Designer</p>
-                    </a>
-                </li>
-            </ul>
-            
-            <ul class="nav-bar-right">
-                <li><a class="nav-element" href="index.html">projects</a></li>
-                <li><a class="nav-element" href="about.html">about</a></li>
-                <li><a class="nav-element nav-selected" href="playground.html">playground</a></li>
-            </ul>
-        </nav>
+    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-        <div class="container-main">
-        </div>
+  <body>
+    <nav class="nav-bar">
+      <ul class="nav-bar-left">
+        <li>
+          <a class="nav-element nav-jr" href="#"
+            ><img src="img/jr-black.png"
+          /></a>
+        </li>
+        <li>
+          <a class="nav-element nav-jr" href="#">
+            <p><strong>Justyna Rawińska</strong></p>
+            <p>Designer</p>
+          </a>
+        </li>
+      </ul>
 
-        <footer>
-            <div class="footer-top">
-                <p>Let’s make something together!</p>
-                <a href="mailto:justyna.rawinska@gmail.com">justyna.rawinska@gmail.com</a>
-            </div>
+      <ul class="nav-bar-right">
+        <li><a class="nav-element" href="index.html">projects</a></li>
+        <li><a class="nav-element" href="about.html">about</a></li>
+        <li>
+          <a class="nav-element nav-selected" href="playground.html"
+            >playground</a
+          >
+        </li>
+      </ul>
+    </nav>
 
-            <div class="footer-bottom">
-                <ul class="footer-left">
-                    <li><a class="nav-element nav-jr" href="#"><img src="img/jr-white.png"></a></li>
-                    <li><a class="nav-element nav-jr" href="#">© Justyna Rawińska 2022</a></li>
-                </ul>
-                
-                <ul class="footer-right">
-                    <li><a class="nav-element" href="about.html">ABOUT</a></li>
-                    <li><a class="nav-element" href="projects.html">PROJECTS</a></li>
-                    <li><a class="nav-element" href="#"><img class="img-footer" src="img/linkedind-negative.png"></a></li>
-                    <li><a class="nav-element" href="#"><img class="img-footer" src="img/behance.png"></a></li>
-                </ul>
-            </div>        
-        </footer>
+    <div class="container-main">
+      <div class="welcome-content">
+        <h1>
+          Welcome to the <span class="orange">fun</span> space full of
+          inspirations!
+        </h1>
+        <h2>
+          I share here my personal projects: arts, crafts, and experimental
+          designs. Sometimes not very serious ones :)
+        </h2>
+      </div>
+    </div>
 
-        <script type="module" src="index.js"></script>
-    </body>
+    <div id="playground-gallery">
+      <img src="img/playground-imgs/jewlery.png" alt="" /><img
+        src="img/playground-imgs/wood1.png"
+        alt=""
+      /><img src="img/playground-imgs/wood2.png" alt="" /><img
+        src="img/playground-imgs/ceramic.png"
+        alt=""
+      /><img src="img/playground-imgs/painting.png" alt="" /><img
+        src="img/playground-imgs/other.png"
+        alt=""
+      /><img src="img/playground-imgs/photo.png" alt="" />
+    </div>
+
+    <footer>
+      <div class="footer-top">
+        <p>Let’s make something together!</p>
+        <a href="mailto:justyna.rawinska@gmail.com"
+          >justyna.rawinska@gmail.com</a
+        >
+      </div>
+
+      <div class="footer-bottom">
+        <ul class="footer-left">
+          <li>
+            <a class="nav-element nav-jr" href="#"
+              ><img src="img/jr-white.png"
+            /></a>
+          </li>
+          <li>
+            <a class="nav-element nav-jr" href="#">© Justyna Rawińska 2022</a>
+          </li>
+        </ul>
+
+        <ul class="footer-right">
+          <li><a class="nav-element" href="about.html">ABOUT</a></li>
+          <li><a class="nav-element" href="projects.html">PROJECTS</a></li>
+          <li>
+            <a class="nav-element" href="#"
+              ><img class="img-footer" src="img/linkedind-negative.png"
+            /></a>
+          </li>
+          <li>
+            <a class="nav-element" href="#"
+              ><img class="img-footer" src="img/behance.png"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script type="module" src="index.js"></script>
+  </body>
 </html>
