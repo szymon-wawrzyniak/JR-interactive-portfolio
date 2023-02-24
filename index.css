@@ -383,14 +383,30 @@ h5 {
 	margin: 150 auto;
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
+	gap: 30px;
 }
 
-#playground-gallery img{
+.playground-gallery--v-block{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	/* justify-content: space-between; */
+	gap: 30px;
+	flex-wrap: nowrap;
+}
+
+.playground-gallery--h-block{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+
+}
+
+.playground-gallery--h-block img{
 	width: 100%;
 }
 
-/* case study UD */
+/* case study UD ////////////////////////////// */
 #ud-intro{
 	margin-top: 180px;
 	display:grid;
